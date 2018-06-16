@@ -1,0 +1,7 @@
+INCLUDEPATH+=D:\qt opencv\opencv\build\include    /*  opencv 中的include文件夹*/
+
+             D:\qt opencv\opencv\build\include\opencv
+
+             D:\qt opencv\opencv\build\include\opencv2
+
+LIBS += D:\qt opencv\dtc\lib\libopencv_*.a          

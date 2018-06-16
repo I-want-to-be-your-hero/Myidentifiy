@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>400</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_N">
+    <property name="title">
+     <string>文件(N)</string>
+    </property>
+    <addaction name="action_0"/>
+   </widget>
+   <widget class="QMenu" name="menu_C">
+    <property name="title">
+     <string>过程(C)</string>
+    </property>
+    <addaction name="action_G"/>
+    <addaction name="action_M"/>
+    <addaction name="action_E_2"/>
+    <addaction name="action_H"/>
+    <addaction name="action_S"/>
+    <addaction name="separator"/>
+    <addaction name="action_T"/>
+    <addaction name="action_Q"/>
+    <addaction name="action_R"/>
+   </widget>
+   <widget class="QMenu" name="menu_U">
+    <property name="title">
+     <string>运行(U)</string>
+    </property>
+    <addaction name="action_G_2"/>
+   </widget>
+   <addaction name="menu_N"/>
+   <addaction name="menu_C"/>
+   <addaction name="menu_U"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="action_0">
+   <property name="text">
+    <string>打开(0)</string>
+   </property>
+  </action>
+  <action name="action_G">
+   <property name="text">
+    <string>灰度化(G)</string>
+   </property>
+  </action>
+  <action name="action_M">
+   <property name="text">
+    <string>中值滤波(M)</string>
+   </property>
+  </action>
+  <action name="action_E_2">
+   <property name="text">
+    <string>边缘检测(E)</string>
+   </property>
+  </action>
+  <action name="action_H">
+   <property name="text">
+    <string>霍夫变换(H)</string>
+   </property>
+  </action>
+  <action name="action_S">
+   <property name="text">
+    <string>闭运算(S)</string>
+   </property>
+  </action>
+  <action name="action_T">
+   <property name="text">
+    <string>寻找门轮廓(T)</string>
+   </property>
+  </action>
+  <action name="action_Q">
+   <property name="text">
+    <string>取得交点(Q)</string>
+   </property>
+  </action>
+  <action name="action_R">
+   <property name="text">
+    <string>效果图(R)</string>
+   </property>
+  </action>
+  <action name="action_G_2">
+   <property name="text">
+    <string>直接取得结果(G)</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
